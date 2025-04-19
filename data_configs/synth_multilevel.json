@@ -1,0 +1,9 @@
+{
+  "mqrel": [
+    {
+      "query_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/queries.jsonl",
+      "corpus_path": "hf://datasets/BatsResearch/sycl/llama33_70b/corpus.jsonl",
+      "qrel_path": "hf://datasets/BatsResearch/sycl/llama33_70b/qrels/train.tsv"
+    }
+  ]
+}

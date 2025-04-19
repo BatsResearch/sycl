@@ -1,0 +1,124 @@
+{
+  "climate_fever": {
+    "corpus_path": "hf://datasets/mteb/climate-fever@47f2ac6acb640fc46020b02a5b59fdda04d39380/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/climate-fever@47f2ac6acb640fc46020b02a5b59fdda04d39380/queries.jsonl",
+    "corpus_cache": "climate_fever/orig/corpus/emb.arrow",
+    "query_cache": "climate_fever/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/climate-fever@47f2ac6acb640fc46020b02a5b59fdda04d39380/qrels/test.tsv"
+  },
+  "cqadupstack_android": {
+    "corpus_path": "hf://datasets/mteb/cqadupstack-android@789b40e361a64fdddfb9860dc11094dbcf527d58/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/cqadupstack-android@789b40e361a64fdddfb9860dc11094dbcf527d58/queries.jsonl",
+    "corpus_cache": "cqadupstack_android/orig/corpus/emb.arrow",
+    "query_cache": "cqadupstack_android/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/cqadupstack-android@789b40e361a64fdddfb9860dc11094dbcf527d58/qrels/test.tsv"
+  },
+  "dbpedia": {
+    "corpus_path": "hf://datasets/mteb/dbpedia@c0f706b76e590d620bd6618b3ca8efdd34e2d659/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/dbpedia@c0f706b76e590d620bd6618b3ca8efdd34e2d659/queries.jsonl",
+    "corpus_cache": "dbpedia/orig/corpus/emb.arrow",
+    "query_cache": "dbpedia/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/dbpedia@c0f706b76e590d620bd6618b3ca8efdd34e2d659/qrels/test.tsv"
+  },
+  "fever": {
+    "qrel_path": "hf://datasets/mteb/fever@bea83ef9e8fb933d90a2f1d5515737465d613e12/qrels/test.tsv",
+    "corpus_path": "hf://datasets/mteb/fever@bea83ef9e8fb933d90a2f1d5515737465d613e12/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/fever@bea83ef9e8fb933d90a2f1d5515737465d613e12/queries.jsonl",
+    "corpus_cache": "fever/orig/corpus/emb.arrow",
+    "query_cache": "fever/orig/queries/emb.arrow"
+  },
+  "fiqa": {
+    "corpus_path": "hf://datasets/mteb/fiqa@27a168819829fe9bcd655c2df245fb19452e8e06/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/fiqa@27a168819829fe9bcd655c2df245fb19452e8e06/queries.jsonl",
+    "corpus_cache": "fiqa/orig/corpus/emb.arrow",
+    "query_cache": "fiqa/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/fiqa@27a168819829fe9bcd655c2df245fb19452e8e06/qrels/test.tsv"
+  },
+  "arguana": {
+    "corpus_path": "hf://datasets/mteb/arguana@c22ab2a51041ffd869aaddef7af8d8215647e41a/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/arguana@c22ab2a51041ffd869aaddef7af8d8215647e41a/queries.jsonl",
+    "corpus_cache": "arguana/orig/corpus/emb.arrow",
+    "query_cache": "arguana/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/arguana@c22ab2a51041ffd869aaddef7af8d8215647e41a/qrels/test.tsv"
+  },
+  "hotpotqa": {
+    "corpus_path": "hf://datasets/mteb/hotpotqa@ab518f4d6fcca38d87c25209f94beba119d02014/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/hotpotqa@ab518f4d6fcca38d87c25209f94beba119d02014/queries.jsonl",
+    "corpus_cache": "hotpotqa/orig/corpus/emb.arrow",
+    "query_cache": "hotpotqa/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/hotpotqa@ab518f4d6fcca38d87c25209f94beba119d02014/qrels/test.tsv"
+  },
+  "msmarco": {
+    "dev": {
+      "corpus_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/corpus.jsonl",
+      "corpus_cache": "msmarco/orig/corpus/emb.arrow",
+      "query_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/queries.jsonl",
+      "query_cache": "msmarco/orig/queries/emb.arrow",
+      "qrel_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/qrels/dev.tsv"
+    },
+    "test": {
+      "corpus_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/corpus.jsonl",
+      "corpus_cache": "msmarco/orig/corpus/emb.arrow",
+      "query_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/queries.jsonl",
+      "query_cache": "msmarco/orig/queries/emb.arrow",
+      "qrel_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/qrels/test.tsv"
+    },
+    "trec20": {
+      "corpus_path": "hf://datasets/mteb/msmarco@c5a29a104738b98a9e76336939199e264163d4a0/corpus.jsonl",
+      "corpus_cache": "msmarco/orig/corpus/emb.arrow",
+      "query_path": "hf://datasets/BatsResearch/sycl/real_data/trec20/queries.jsonl",
+      "query_cache": "msmarco/orig/trec2020_queries/emb.arrow",
+      "qrel_path": "hf://datasets/BatsResearch/sycl/real_data/trec20/qrel.tsv"
+    }
+  },
+  "nfcorpus": {
+    "corpus_path": "hf://datasets/mteb/nfcorpus@ec0fa4fe99da2ff19ca1214b7966684033a58814/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/nfcorpus@ec0fa4fe99da2ff19ca1214b7966684033a58814/queries.jsonl",
+    "corpus_cache": "nfcorpus/orig/corpus/emb.arrow",
+    "query_cache": "nfcorpus/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/nfcorpus@ec0fa4fe99da2ff19ca1214b7966684033a58814/qrels/test.tsv"
+  },
+  "nq": {
+    "corpus_path": "hf://datasets/mteb/nq@b774495ed302d8c44a3a7ea25c90dbce03968f31/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/nq@b774495ed302d8c44a3a7ea25c90dbce03968f31/queries.jsonl",
+    "corpus_cache": "nq/orig/corpus/emb.arrow",
+    "query_cache": "nq/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/nq@b774495ed302d8c44a3a7ea25c90dbce03968f31/qrels/test.tsv"
+  },
+  "quora": {
+    "corpus_path": "hf://datasets/mteb/quora@e4e08e0b7dbe3c8700f0daef558ff32256715259/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/quora@e4e08e0b7dbe3c8700f0daef558ff32256715259/queries.jsonl",
+    "corpus_cache": "quora/orig/corpus/emb.arrow",
+    "query_cache": "quora/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/quora@e4e08e0b7dbe3c8700f0daef558ff32256715259/qrels/test.tsv"
+  },
+
+  "scidocs": {
+    "corpus_path": "hf://datasets/mteb/scidocs@f8c2fcf00f625baaa80f62ec5bd9e1fff3b8ae88/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/scidocs@f8c2fcf00f625baaa80f62ec5bd9e1fff3b8ae88/queries.jsonl",
+    "corpus_cache": "scidocs/orig/corpus/emb.arrow",
+    "query_cache": "scidocs/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/scidocs@f8c2fcf00f625baaa80f62ec5bd9e1fff3b8ae88/qrels/test.tsv"
+  },
+  "scifact": {
+    "corpus_path": "hf://datasets/mteb/scifact@d56462d0e63a25450459c4f213e49ffdb866f7f9/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/scifact@d56462d0e63a25450459c4f213e49ffdb866f7f9/queries.jsonl",
+    "corpus_cache": "scifact/orig/corpus/emb.arrow",
+    "query_cache": "scifact/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/scifact@d56462d0e63a25450459c4f213e49ffdb866f7f9/qrels/test.tsv"
+  },
+  "touche2020": {
+    "corpus_path": "hf://datasets/mteb/touche2020@a34f9a33db75fa0cbb21bb5cfc3dae8dc8bec93f/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/touche2020@a34f9a33db75fa0cbb21bb5cfc3dae8dc8bec93f/queries.jsonl",
+    "corpus_cache": "touche2020/orig/corpus/emb.arrow",
+    "query_cache": "touche2020/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/touche2020@a34f9a33db75fa0cbb21bb5cfc3dae8dc8bec93f/qrels/test.tsv"
+  },
+  "trec_covid": {
+    "corpus_path": "hf://datasets/mteb/trec-covid@bb9466bac8153a0349341eb1b22e06409e78ef4e/corpus.jsonl",
+    "query_path": "hf://datasets/mteb/trec-covid@bb9466bac8153a0349341eb1b22e06409e78ef4e/queries.jsonl",
+    "corpus_cache": "trec_covid/orig/corpus/emb.arrow",
+    "query_cache": "trec_covid/orig/queries/emb.arrow",
+    "qrel_path": "hf://datasets/mteb/trec-covid@bb9466bac8153a0349341eb1b22e06409e78ef4e/qrels/test.tsv"
+  }
+}
